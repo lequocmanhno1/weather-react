@@ -1,87 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0;
-  font-family: 'DynaPuff', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  font-size : 1.6rem;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
-
-
-h1 {
-  font-size: 6rem;
-}
-
-
-.app {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  background: url(./assets/hd-wallpaper.jpg) no-repeat center center/cover;
-  background-color: rgba(0, 0, 0, 4);
-  color: #fff;
-}
-
-.app::before {
-  content: '';
-  
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.containter {
-  max-width: 700px;
-  height: 700px;
-  margin:auto;
-  padding: 0 1rem;
-  position:relative;
-  top:10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-.app .top{
-  width: 100%;
-  margin: 0rem auto;
-
-}
-
-.app .description {
-  position: relative;
-  right: -90%;
-  transform-origin: 0 0;
-  transform: rotate(269deg);
-}
-
-.app .bottom{
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  width: 100%;
-  margin: 40rem auto;
-  padding: 1rem;
-  border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.bold {
-  font-weight: 700;
-}
-
